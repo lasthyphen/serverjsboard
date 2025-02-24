@@ -10,7 +10,7 @@ import { activeRooms, addActiveRoom, removeExpiredRooms } from './data/activeRoo
 app.use(express.json());
 
 const options: cors.CorsOptions = {
-    origin: ['http://localhost:3000', 'https://playboard.vercel.app']
+    origin: ['http://localhost:3000', 'https://zandhdoodle.vercel.app']
 };
 
 app.use(cors(options));
